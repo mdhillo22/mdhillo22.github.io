@@ -25,10 +25,6 @@ quantitative position encodings and report classification is a nominal color enc
 
 The second visualization has an interaction where clicking a classification in the legend highlights the reports in that class. The other points in the chart fade, making it easier for comparisons.
 
-<div class="left">
 {% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="The Data" %}
-</div>
 
-<div class="right">
 {% include elements/button.html link="https://github.com/mdhillo22/mdhillo22.github.io/blob/main/python_notebooks/hw5.ipynb" text="The Analysis" %}
-</div>
