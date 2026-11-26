@@ -19,9 +19,11 @@ bar chart style because it helps for easier comparison of the report counts.
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bigfoot_state_reports.json" style="width: 100%"></vegachart>
 
 The second visualization is showing the locations of the reportings by using longitude and latitude, with each point representing a report. Longitude and latitude are 
-quantitative positive encodings and report classification is a nominal color encoding. The default categorical colors help differentiate the classifications.
+quantitative position encodings and report classification is a nominal color encoding. The default categorical colors help differentiate the classifications.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bigfoot_report_locations.json" style="width: 100%"></vegachart>
+
+The second visualization has an interaction where clicking a classification in the legend highlights the reports in that class. The other points in the chart fade, making it easier for comparisons.
 
 <div class="left">
 {% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="The Data" %}
